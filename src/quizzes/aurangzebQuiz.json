@@ -1,0 +1,36 @@
+{
+  "id": "aurangzebQuiz",
+  "title": "Quiz on Aurangzeb",
+  "questions": [
+    {
+      "question": "What was the title given to Aurangzeb for his piety?",
+      "options": ["Zinda Pir", "Ghazi", "Badshah", "Padshah"],
+      "answer": "Zinda Pir"
+    },
+    {
+      "question": "Aurangzeb reintroduced which tax that Akbar had abolished?",
+      "options": ["Jizya", "Zabt", "Iqta", "Lagaan"],
+      "answer": "Jizya"
+    },
+    {
+      "question": "Which Sikh Guru was executed by Aurangzeb?",
+      "options": [
+        "Guru Tegh Bahadur",
+        "Guru Nanak",
+        "Guru Gobind Singh",
+        "Guru Arjan Dev"
+      ],
+      "answer": "Guru Tegh Bahadur"
+    },
+    {
+      "question": "Aurangzeb’s policies led to the rebellion of which group?",
+      "options": ["Rajputs", "Marathas", "Sikhs", "All of the above"],
+      "answer": "All of the above"
+    },
+    {
+      "question": "Which Deccan ruler was Aurangzeb unable to fully subdue during his campaigns?",
+      "options": ["Shivaji", "Tipu Sultan", "Malik Ambar", "Bahmani Sultan"],
+      "answer": "Shivaji"
+    }
+  ]
+}

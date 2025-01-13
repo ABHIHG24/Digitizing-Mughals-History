@@ -1,0 +1,139 @@
+[
+  {
+    "id": "babur",
+    "year": "1526",
+    "title": "Babur (1526–1530)",
+    "description": "Babur (Reign, Administrative Achievements, and Legacy) Reign (1526–1530)\n\nFounding of the Mughal Empire: Babur established the Mughal Empire in India after defeating Ibrahim Lodi at the First Battle of Panipat (1526).",
+    "keyBattles": [
+      "First Battle of Panipat (1526): Defeated the Delhi Sultanate's Ibrahim Lodi.",
+      "Battle of Khanwa (1527): Defeated the Rajput confederacy led by Rana Sanga.",
+      "Battle of Chanderi (1528): Secured control over central India by defeating the Rajputs.",
+      "Battle of Ghaghra (1529): Consolidated his position against Afghan rulers in eastern India."
+    ],
+    "administrativeAchievements": [
+      "Established centralized control, bringing different regions under a single administration.",
+      "Began the process of blending Persian culture with Indian traditions, which became a hallmark of the Mughal dynasty.",
+      "Introduced advanced warfare techniques, including the use of artillery and field guns.",
+      "Innovative use of the Tulughma (pincer movement) in battles."
+    ],
+    "legacy": [
+      "Founder of the Mughal Empire: Babur laid the foundation for a dynasty that would rule India for over three centuries.",
+      "Cultural Legacy: Introduced Persian culture, art, and language to India.",
+      "Military Innovations: His strategic brilliance and the use of advanced weaponry shaped future Mughal military campaigns.",
+      "Integration of Cultures: His successors continued his vision of integrating Persian, Central Asian, and Indian cultures."
+    ],
+    "images": [
+      "https://media.gettyimages.com/id/51243813/vector/babar-shah.jpg?s=612x612&w=gi&k=20&c=U2F1-e1m0BZfuxqvNXdrErFhUdJsbQfbuldxAahJKtw="
+    ],
+    "youtubeUrl": "https://www.youtube.com/watch?v=nbuM0aJjVgE"
+  },
+
+  {
+    "id": "akbar",
+    "year": "1556",
+    "title": "Akbar (1556–1605)",
+    "description": "Akbar the Great was known for his military successes, his policy of religious tolerance, and his administrative genius.",
+    "keyBattles": [
+      "Second Battle of Panipat (1556): Defeated the forces of Hemu.",
+      "Conquest of Gujarat, Bengal, and Rajasthan."
+    ],
+    "administrativeAchievements": [
+      "Established a centralized administration with a system of ministers and military officers.",
+      "Introduced the Mansabdari system, a rank and pay system for military officers.",
+      "Promoted religious tolerance, abolished the jizya tax on non-Muslims, and encouraged interfaith debates."
+    ],
+    "legacy": [
+      "One of the golden periods of Mughal rule marked by stability, prosperity, and the flourishing of culture and administration.",
+      "Patronized art, architecture, and literature, leading to the development of Mughal art and architecture.",
+      "Constructed architectural marvels such as Fatehpur Sikri and the Red Fort."
+    ],
+    "images": [
+      "https://images.fineartamerica.com/images-medium-large/akbar-the-great-1542-1605-granger.jpg"
+    ],
+    "youtubeUrl": "https://www.youtube.com/watch?v=nbuM0aJjVgE"
+  },
+  {
+    "id": "jahangir",
+    "year": "1605",
+    "title": "Jahangir (1605–1627)",
+    "description": "Jahangir's reign saw the continuation of Akbar’s policies with a greater focus on art and culture.",
+    "keyBattles": [
+      "Military campaigns to maintain Mughal power, especially in the Deccan region."
+    ],
+    "administrativeAchievements": [
+      "Patronized the arts and helped establish Mughal painting as a major art form.",
+      "Continued his father Akbar's policies but was more dependent on his officials."
+    ],
+    "legacy": [
+      "Consolidated the empire, especially in the Punjab and Deccan regions.",
+      "Patronized art, leading to the development of a unique Mughal painting style.",
+      "Compiling the 'Jahangirnama,' a detailed account of his reign."
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Jahangircrop.jpeg/1200px-Jahangircrop.jpeg"
+    ],
+    "youtubeUrl": "https://www.youtube.com/watch?v=nbuM0aJjVgE"
+  },
+  {
+    "id": "shahjahan",
+    "year": "1628",
+    "title": "Shah Jahan (1628–1658)",
+    "description": "Shah Jahan is best known for his architectural achievements and the building of the Taj Mahal.",
+    "keyBattles": [
+      "Military campaigns to expand the empire, focusing on the Deccan region."
+    ],
+    "administrativeAchievements": [
+      "Continued his grandfather Akbar's policy of religious tolerance.",
+      "Focused on architecture and built the Taj Mahal, one of the Seven Wonders of the World."
+    ],
+    "legacy": [
+      "Considered a golden age for Mughal architecture and culture.",
+      "Endured political instability and was imprisoned by his son Aurangzeb."
+    ],
+    "images": [
+      "https://media.gettyimages.com/id/520894946/photo/miniature-painting-of-mughal-emperor-shah-jahan-india-asia.jpg?s=612x612&w=gi&k=20&c=Qnmvlk6xBCUU2FbZrOtytfwGRIMb1UXcZ8vP9FZe39k="
+    ],
+    "youtubeUrl": "https://www.youtube.com/watch?v=nbuM0aJjVgE"
+  },
+  {
+    "id": "aurangzeb",
+    "year": "1658",
+    "title": "Aurangzeb (1658–1707)",
+    "description": "Aurangzeb's reign is marked by both military expansion and significant religious and cultural changes.",
+    "keyBattles": [
+      "Military expansion into the Deccan region and against the Marathas."
+    ],
+    "administrativeAchievements": [
+      "Centralized power and implemented a stricter Islamic policy.",
+      "Re-imposed the jizya tax on non-Muslims and demolished some Hindu temples."
+    ],
+    "legacy": [
+      "Expanded the Mughal Empire to its greatest territorial extent.",
+      "His policies of religious intolerance and military expansion contributed to the decline of the Mughal Empire."
+    ],
+    "images": [
+      "https://images.aeonmedia.co/images/8aea8011-09f7-425d-b8ed-e34a036c6836/essay-metro-ashmolean-prince-aurangzeb-300.jpg?width=3840&quality=75&format=auto"
+    ],
+    "youtubeUrl": "https://www.youtube.com/watch?v=nbuM0aJjVgE"
+  },
+  {
+    "id": "bahadurshah",
+    "year": "1707",
+    "title": "Bahadur Shah I (1707–1712)",
+    "description": "Bahadur Shah I's reign came after the death of Aurangzeb and marked the decline of the Mughal Empire.",
+    "keyBattles": [
+      "Lacked major battles as his reign was largely symbolic, with regional powers asserting autonomy."
+    ],
+    "administrativeAchievements": [
+      "Despite political struggles, he patronized arts and culture, particularly poetry and music."
+    ],
+    "legacy": [
+      "Remembered as a weak ruler during a time of imperial decline.",
+      "His reign marked the beginning of the Mughal Empire's fall."
+    ],
+    "images": [
+      "https://miro.medium.com/v2/resize:fit:579/1*t639C4V6-o5iFaiLGDGRIA.jpeg"
+    ],
+    "youtubeUrl": "https://www.youtube.com/watch?v=nbuM0aJjVgE"
+  }
+]

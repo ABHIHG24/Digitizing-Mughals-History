@@ -1,0 +1,41 @@
+{
+  "id": "jahangirQuiz",
+  "title": "Quiz on Jahangir",
+  "questions": [
+    {
+      "question": "Which monument is Jahangir most associated with due to his love for gardens and architecture?",
+      "options": ["Shalimar Bagh", "Fatehpur Sikri", "Red Fort", "Taj Mahal"],
+      "answer": "Shalimar Bagh"
+    },
+    {
+      "question": "Which famous English ambassador visited Jahangir's court?",
+      "options": [
+        "Sir Thomas Roe",
+        "Robert Clive",
+        "John Hawkins",
+        "William Hawkins"
+      ],
+      "answer": "Sir Thomas Roe"
+    },
+    {
+      "question": "Jahangir is famously associated with the chain of justice. What was its purpose?",
+      "options": [
+        "To allow common people to directly seek justice",
+        "To punish corrupt officials",
+        "To display imperial authority",
+        "To prevent rebellions"
+      ],
+      "answer": "To allow common people to directly seek justice"
+    },
+    {
+      "question": "Who was Jahangir’s wife, known for her influence on Mughal politics?",
+      "options": ["Nur Jahan", "Jodha Bai", "Mumtaz Mahal", "Zeenat Mahal"],
+      "answer": "Nur Jahan"
+    },
+    {
+      "question": "Jahangir defeated which rebel who declared independence in the Deccan?",
+      "options": ["Khusrau", "Dara Shikoh", "Malik Ambar", "Abdul Rahim"],
+      "answer": "Khusrau"
+    }
+  ]
+}

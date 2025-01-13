@@ -1,0 +1,36 @@
+{
+  "id": "bahadurShahQuiz",
+  "title": "Quiz on Bahadur Shah",
+  "questions": [
+    {
+      "question": "Bahadur Shah I was also known by which title?",
+      "options": ["Shah Alam I", "Zafar", "Aurangzeb II", "Alamgir"],
+      "answer": "Shah Alam I"
+    },
+    {
+      "question": "Bahadur Shah I succeeded which Mughal emperor?",
+      "options": ["Aurangzeb", "Shah Jahan", "Akbar II", "Jahangir"],
+      "answer": "Aurangzeb"
+    },
+    {
+      "question": "During Bahadur Shah’s reign, which major Sikh leader was active?",
+      "options": [
+        "Guru Gobind Singh",
+        "Guru Tegh Bahadur",
+        "Guru Arjan Dev",
+        "Ranjit Singh"
+      ],
+      "answer": "Guru Gobind Singh"
+    },
+    {
+      "question": "Bahadur Shah’s reign marked the beginning of which phase in the Mughal Empire?",
+      "options": ["Decline", "Expansion", "Reformation", "Golden Age"],
+      "answer": "Decline"
+    },
+    {
+      "question": "Which group of rebels did Bahadur Shah attempt to reconcile with during his reign?",
+      "options": ["Rajputs", "Marathas", "Jats", "All of the above"],
+      "answer": "All of the above"
+    }
+  ]
+}

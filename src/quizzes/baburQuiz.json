@@ -1,0 +1,41 @@
+{
+  "id": "baburAdvancedQuiz",
+  "title": "Advanced Quiz on Babur",
+  "questions": [
+    {
+      "question": "In which year did Babur ascend to the throne of Fergana?",
+      "options": ["1494", "1504", "1526", "1530"],
+      "answer": "1494"
+    },
+    {
+      "question": "What is the name of Babur's autobiography, which provides a detailed account of his life and reign?",
+      "options": [
+        "Baburnama",
+        "Ain-i-Akbari",
+        "Tuzuk-i-Jahangiri",
+        "Humayunnama"
+      ],
+      "answer": "Baburnama"
+    },
+    {
+      "question": "Which of the following regions was not conquered by Babur during his lifetime?",
+      "options": ["Kabul", "Delhi", "Rajputana", "Gujarat"],
+      "answer": "Gujarat"
+    },
+    {
+      "question": "Babur defeated Ibrahim Lodi in the First Battle of Panipat. What was the key factor that contributed to Babur's victory?",
+      "options": [
+        "His use of elephants",
+        "Superior cavalry tactics",
+        "Use of firearms and artillery",
+        "Diplomatic alliances with Rajputs"
+      ],
+      "answer": "Use of firearms and artillery"
+    },
+    {
+      "question": "Babur referred to India as the 'land of wealth and splendor' but also criticized its social practices. Which practice did he specifically condemn?",
+      "options": ["Caste system", "Child marriage", "Sati", "Untouchability"],
+      "answer": "Sati"
+    }
+  ]
+}

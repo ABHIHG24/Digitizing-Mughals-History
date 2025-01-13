@@ -1,0 +1,41 @@
+{
+  "id": "akbarQuiz",
+  "title": "Quiz on Akbar",
+  "questions": [
+    {
+      "question": "Which policy of Akbar aimed at fostering harmony among different religions?",
+      "options": ["Sulh-i-Kul", "Din-i-Ilahi", "Jizya", "Mansabdari"],
+      "answer": "Sulh-i-Kul"
+    },
+    {
+      "question": "Who was Akbar's court historian and author of 'Akbarnama'?",
+      "options": ["Abul Fazl", "Birbal", "Tansen", "Todar Mal"],
+      "answer": "Abul Fazl"
+    },
+    {
+      "question": "Which of the following battles established Akbar’s dominance over northern India?",
+      "options": [
+        "Second Battle of Panipat",
+        "Battle of Chittorgarh",
+        "Battle of Talikota",
+        "Battle of Haldighati"
+      ],
+      "answer": "Second Battle of Panipat"
+    },
+    {
+      "question": "What was Akbar's capital city after 1571?",
+      "options": ["Agra", "Fatehpur Sikri", "Delhi", "Jaipur"],
+      "answer": "Fatehpur Sikri"
+    },
+    {
+      "question": "Which Mughal tax system introduced by Akbar was based on land revenue classification?",
+      "options": [
+        "Zabt System",
+        "Iqta System",
+        "Jizya System",
+        "Ryotwari System"
+      ],
+      "answer": "Zabt System"
+    }
+  ]
+}

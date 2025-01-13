@@ -1,0 +1,41 @@
+{
+  "id": "shahJahanQuiz",
+  "title": "Quiz on Shah Jahan",
+  "questions": [
+    {
+      "question": "Which of the following monuments is Shah Jahan most famous for building?",
+      "options": ["Taj Mahal", "Red Fort", "Fatehpur Sikri", "Jama Masjid"],
+      "answer": "Taj Mahal"
+    },
+    {
+      "question": "What was the primary reason behind the construction of the Taj Mahal?",
+      "options": [
+        "To celebrate his coronation",
+        "As a mausoleum for Mumtaz Mahal",
+        "As a fortification",
+        "To commemorate a military victory"
+      ],
+      "answer": "As a mausoleum for Mumtaz Mahal"
+    },
+    {
+      "question": "Which Mughal city was famously rebuilt by Shah Jahan and renamed?",
+      "options": ["Delhi", "Agra", "Fatehpur Sikri", "Jaipur"],
+      "answer": "Delhi"
+    },
+    {
+      "question": "What title was given to Shah Jahan's reign due to its focus on architecture?",
+      "options": [
+        "Golden Age of Architecture",
+        "Era of Expansion",
+        "Age of Reforms",
+        "Period of Peace"
+      ],
+      "answer": "Golden Age of Architecture"
+    },
+    {
+      "question": "Shah Jahan was imprisoned during the later part of his life. Who imprisoned him?",
+      "options": ["Aurangzeb", "Jahangir", "Dara Shikoh", "Bahadur Shah"],
+      "answer": "Aurangzeb"
+    }
+  ]
+}
