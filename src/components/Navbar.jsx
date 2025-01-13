@@ -8,6 +8,8 @@ function Navbar() {
   const navLinks = [
     { name: "Home", to: "/" },
     { name: "Timeline", to: "/timeline" },
+    { name: "chatbot", to: "/chatbot" },
+    { name: "virtual-tour", to: "/virtual-tour" },
     { name: "Legacy", to: "/legacy" },
   ];
 
