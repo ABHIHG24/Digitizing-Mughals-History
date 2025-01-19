@@ -7,6 +7,7 @@ import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import Legacy from "./components/legacy";
 import VirtualTour from "./components/virtual-tour";
+import Model3D from "./components/VirtualTour";
 import Chatbot from "./components/Chatbot";
 import Quiz from "./components/Quiz";
 
@@ -22,6 +23,7 @@ function App() {
         <Route path="/virtual-tour" element={<VirtualTour />} />
         <Route path="/chatbot" element={<Chatbot />} />
         <Route path="/quiz/:eventId" element={<Quiz />} />
+        <Route path="/Model3D" element={<Model3D />} />
       </Routes>
     </>
   );

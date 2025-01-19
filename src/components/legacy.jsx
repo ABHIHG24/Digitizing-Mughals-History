@@ -1,5 +1,4 @@
 import React from "react";
-// Import Three.js components (e.g., a simple rotating sphere or custom effects)
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Sphere } from "@react-three/drei";
 
@@ -57,17 +56,30 @@ const Legacy = () => {
 
   return (
     <div className="bg-base-200 min-h-screen flex flex-col items-center p-6">
-      {/* Three.js Canvas */}
-      <div className="w-full h-64">
-        <Canvas>
-          <OrbitControls />
-          <ambientLight intensity={0.5} />
-          <directionalLight position={[0, 0, 5]} />
-          {/* Rotating Sphere */}
-          <Sphere args={[1, 64, 64]} scale={2}>
-            <meshStandardMaterial color="goldenrod" />
-          </Sphere>
-        </Canvas>
+      {/* Sketchfab 3D Model */}
+      <div className="sketchfab-embed-wrapper w-full h-64 my-8">
+        <iframe
+          title="India"
+          frameBorder="0"
+          allowFullScreen
+          mozAllowFullscreen="true"
+          webkitAllowFullscreen="true"
+          allow="autoplay; fullscreen; xr-spatial-tracking"
+          xr-spatial-tracking
+          execution-while-out-of-viewport
+          execution-while-not-rendered
+          webShare
+          src="https://sketchfab.com/models/c86b16b141e54d2d844b740941bedb0c/embed"
+          className="w-full h-full"
+        />
+        <p
+          style={{
+            fontSize: "13px",
+            fontWeight: "normal",
+            margin: "5px",
+            color: "#4A4A4A",
+          }}
+        ></p>
       </div>
 
       {/* Title Section */}

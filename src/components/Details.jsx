@@ -2,20 +2,40 @@ import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import eventData from "../data.json";
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
 function Details() {
   const { eventId } = useParams();
   const [eventDetails, setEventDetails] = useState(null);
+  const { t, i18n } = useTranslation();
 
   useEffect(() => {
     const event = eventData.find((event) => event.id === eventId);
     setEventDetails(event);
   }, [eventId]);
 
+  const stopReading = () => {
+    if (window.speechSynthesis) {
+      window.speechSynthesis.cancel(); // Stops the ongoing speech
+    }
+  };
+
+  const startReading = () => {
+    if (eventDetails) {
+      const speech = new SpeechSynthesisUtterance();
+      speech.text = `${eventDetails.title}. ${eventDetails.description}`;
+      window.speechSynthesis.speak(speech);
+    }
+  };
+
+  const changeLanguage = (lang) => {
+    i18n.changeLanguage(lang);
+  };
+
   if (!eventDetails) {
     return (
       <div className="text-center text-lg text-gray-600 py-16">
-        Event not found
+        {t("event_not_found")}
       </div>
     );
   }
@@ -23,7 +43,45 @@ function Details() {
   return (
     <div className="bg-base-100 p-8 sm:p-12">
       <div className="max-w-7xl mx-auto">
-        {/* Title and Babur's First Image */}
+        {/* Language Switcher and Reading Controls */}
+        <div className="flex justify-between items-center mb-4">
+          <button
+            className="btn btn-sm btn-outline btn-primary"
+            onClick={() =>
+              changeLanguage(
+                i18n.language === "en"
+                  ? "kn"
+                  : i18n.language === "kn"
+                  ? "hi"
+                  : "en"
+              )
+            }
+          >
+            {i18n.language === "en"
+              ? "ಕನ್ನಡ"
+              : i18n.language === "kn"
+              ? "हिन्दी"
+              : "English"}
+          </button>
+
+          {/* Start and Stop Reading Buttons */}
+          <div className="space-x-4">
+            <button
+              onClick={startReading}
+              className="btn btn-sm btn-outline btn-primary"
+            >
+              Start Reading
+            </button>
+            <button
+              onClick={stopReading}
+              className="btn btn-sm btn-outline btn-primary"
+            >
+              Stop Reading
+            </button>
+          </div>
+        </div>
+
+        {/* Title and First Image */}
         <div className="mb-12 flex flex-col items-center">
           <h1 className="text-4xl font-extrabold text-primary">
             {eventDetails.title}
@@ -40,7 +98,7 @@ function Details() {
           {eventDetails.youtubeUrl && (
             <div className="mb-12">
               <h2 className="text-2xl font-semibold text-accent mb-6">
-                Related Video
+                {t("related_video")}
               </h2>
               <div className="aspect-w-16 aspect-h-9">
                 <iframe
@@ -63,9 +121,8 @@ function Details() {
         {/* Key Battles Section */}
         <div className="mb-12">
           <h2 className="text-2xl font-semibold text-accent mb-6">
-            Key Battles
+            {t("key_battles")}
           </h2>
-
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 mb-6">
             {eventDetails.images[1] && (
               <img
@@ -94,9 +151,7 @@ function Details() {
                 </div>
               ))
             ) : (
-              <p className="text-lg text-gray-600">
-                No battle information available.
-              </p>
+              <p className="text-lg text-gray-600">{t("no_information")}</p>
             )}
           </div>
         </div>
@@ -104,7 +159,7 @@ function Details() {
         {/* Administrative Achievements Section */}
         <div className="mb-12">
           <h2 className="text-2xl font-semibold text-accent mb-6">
-            Administrative Achievements
+            {t("administrative_achievements")}
           </h2>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 mb-6">
@@ -140,20 +195,18 @@ function Details() {
                 )
               )
             ) : (
-              <p className="text-lg text-gray-600">
-                No administrative achievements available.
-              </p>
+              <p className="text-lg text-gray-600">{t("no_information")}</p>
             )}
           </div>
         </div>
 
         {/* Legacy Section */}
         <div className="mb-12">
-          <h2 className="text-2xl font-semibold text-accent mb-6">Legacy</h2>
+          <h2 className="text-2xl font-semibold text-accent mb-6">
+            {t("legacy")}
+          </h2>
           <p className="text-lg text-base-content">
-            {eventDetails.legacy
-              ? eventDetails.legacy
-              : "No legacy information available."}
+            {eventDetails.legacy ? eventDetails.legacy : t("no_information")}
           </p>
           <div className="mt-6">
             {eventDetails.images[5] && (
@@ -165,11 +218,12 @@ function Details() {
             )}
           </div>
         </div>
+
         <Link
           to={`/quiz/${eventId}`}
-          className="mt-6 px-6 py-2 bg-accent text-white rounded-lg inline-block"
+          className="btn btn-primary text-white w-32 py-3 rounded-lg mt-6"
         >
-          Take Quiz
+          Start Quiz
         </Link>
       </div>
     </div>
