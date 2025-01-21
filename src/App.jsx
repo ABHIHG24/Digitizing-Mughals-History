@@ -10,11 +10,13 @@ import VirtualTour from "./components/virtual-tour";
 import Model3D from "./components/VirtualTour";
 import Chatbot from "./components/Chatbot";
 import Quiz from "./components/Quiz";
+import NotesMaker from "./components/NotesMaker";
 
 function App() {
   return (
     <>
       <Navbar />
+      <NotesMaker />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/timeline" element={<Timeline />} />
